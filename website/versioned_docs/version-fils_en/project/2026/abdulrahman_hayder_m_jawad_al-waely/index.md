@@ -2,6 +2,13 @@
 
 *A robotic arm that can move using hydraulics, and a glove that will send the movement to the arm to mimic or control it.*
 
+:::info 
+
+**Author**: Al Waely Abdulrahman \
+**GitHub Project Link**: https://github.com/UPB-PMRust-Students/fils-project-2026-CRISISXx/tree/main
+
+:::
+
 ## Description
 
 *Basically my project is a robotic arm that can move using hydraulics. Most of the pieces will be 3D printed, using syringes filled with water and small flexible tubes. We can increase the pressure in the tubes making them stiffen, and using silicone bands we can simulate a reverse motion. The syringes will be pressed using stepper motors.*
@@ -12,7 +19,7 @@
 
 ## Architecture
 
-*To be added*
+
 
 ## Log
 
@@ -42,9 +49,33 @@
 
 
 ## Hardware
+The project used two ESP32 38 pins to send data wirelessly via ESP-NOW, pico 2W for more GPIO pins to control the motors, five stepper motors to control each finger movement, and a DIY flex sensor to detect each finger's movement.
 
 
 ## Schematics
 
 
 ## Bill of Materials
+
+| Device | Usage | Price |
+|--------|--------|-------|
+| [Raspberry Pi Pico 2W](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico2) | The microcontroller | [39.66 RON](https://www.optimusdigital.ro/en/raspberry-pi-boards/13327-raspberry-pi-pico-2-w.html) |
+| [Plusivo ESP32 and BLE Compatible Wireless Development Board x2](https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#pico2) | The microcontroller | [60 RON](https://www.optimusdigital.ro/en/esp32-boards/12933-plusivo-esp32-and-ble-compatible-wireless-development-board.html) |
+| [28BYJ48 stepper motor module and ULN2003 driver x5](https://www.mouser.com/datasheet/2/758/stepd-01-data-sheet-1143075.pdf) | The microcontroller | [94.9 RON](https://www.bitmi.ro/module-electronice/modul-motor-pas-cu-pas-28byj48-si-driver-uln2003-10399.html) |
+
+## Software
+
+| Library | Description | Usage |
+|---------|-------------|-------|
+| [defmt_rtt & panic_probe](https://github.com/knurling-rs/defmt/blob/main/README.md) | RTT-based logging and panic handler | Used to stream debug log messages from the pico to the terminal |
+| [defmt](https://github.com/knurling-rs/defmt/blob/main/README.md) | Deferred formatting logging framework | Used to provide low_overhead logging macros for terminal diagnostics |
+| [embassy_executor](https://github.com/embassy-rs/embassy) | Asynchronous task execution engine | Used to manage and run async tasks on the microcontroller |
+| [embassy_rp](https://github.com/embassy-rs/embassy) | Hardware peripheral access library for raspberry pi pico | Used to initialize hardware peripherals, including GPIO pins and UART serial communication |
+| [embassy_time](https://github.com/embassy-rs/embassy) | Asynchronous time managment library | Used to handele precise non-blocking delays between stepper motor steps |
+| [serde](https://github.com/serde-rs/serde) | Framework for serializing and deserializing data structures | Used alongside postcard to translate custom finger coordinate structs into raw bytes from transmission |
+| [nb](https://github.com/rust-embedded/nb) | Non-blocking I/O abstraction wrapper | Used to block on non-blocking operations like ADC conversions |
+
+
+
+
+
