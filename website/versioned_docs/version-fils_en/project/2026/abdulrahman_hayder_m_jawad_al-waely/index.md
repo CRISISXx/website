@@ -18,6 +18,7 @@
 *My motivation for this project is to help those who have physical limitations and have lost the ability to perform simple day-to-day tasks. I don't plan on making a super precise and expensive factory production robotic arm rather I am focusing on making a cheaper desk arm that can do simple tasks such as helping an amputee put on a watch, put on a jacket, or hold down the paper as they write. Furthermore I believe that in most task that requires automation it isn't needed a full robot that can walk and that looks like a human with an expensive parts, what is actually needed or the part that is most used or the majority of those tasks is just the hand any other part could be basically any shape as long as it can perform a simple motion for some tasks.*
 
 ## Architecture
+![Diagram](Architecture.svg)
 
 
 
