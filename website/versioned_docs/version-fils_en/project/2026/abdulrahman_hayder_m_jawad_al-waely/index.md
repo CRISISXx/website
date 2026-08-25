@@ -46,7 +46,7 @@
 
 ### Week 10 May 1
 
-**
+*By this time I had received most of my orders but I had one big problem was the flex sensors that I had ordered were pressure sensors. I made a mistake by ordering the wrong sensors thus I decided to make my own flex sensors. Flex sensors are basically a simi-conductive material. When it is straight, it conducts electricity with a small amount of resistance. But when it bends the conductive molecules move further apart and thus cause an increase in resistance.*
 
 
 ## Hardware
