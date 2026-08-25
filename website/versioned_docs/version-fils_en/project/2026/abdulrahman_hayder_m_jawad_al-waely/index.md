@@ -48,6 +48,15 @@
 
 *By this time I had received most of my orders but I had one big problem was the flex sensors that I had ordered were pressure sensors. I made a mistake by ordering the wrong sensors thus I decided to make my own flex sensors. Flex sensors are basically a simi-conductive material. When it is straight, it conducts electricity with a small amount of resistance. But when it bends the conductive molecules move further apart and thus cause an increase in resistance.*
 
+### On the week of submission
+
+*On the last week of submission I couldn't get the parts printed from the university thus, I decided to buy my own 3D printer and attemted to print the 3D model myself. Unfortunatly I didn't have the time nor the experience needed to perform the 3D print. Partes didn't fit together, others broke very easily. For that reason I decided to print only the necessary parts and the other large parts I would make them using wood. Unfortunately even with all my attempts and efforts I couldn't get it done on time, and the parts that I did make broke when I was transporting them to the university. *
+
+### The summer vacation
+
+*On the summer vacation, I spent mostly 3D printing parts and making sure that the printer is optimized I broke parts from it and had to fix or order replacement parts. I changed from using an STM32 to a pico 2W and two ESP32s. I still couldn't 3D print all the parts, but I was able to print the actual hand. I programmed it and used ESP-NOW to send data from the glove to the actual hand and move it. I also had to change my original idea of using tubes to flex the hand as the force was too weak for preforming action. *
+
+
 
 ## Hardware
 The project used two ESP32 38 pins to send data wirelessly via ESP-NOW, pico 2W for more GPIO pins to control the motors, five stepper motors to control each finger movement, and a DIY flex sensor to detect each finger's movement.
