@@ -86,6 +86,14 @@ The project used two ESP32 38 pins to send data wirelessly via ESP-NOW, pico 2W 
 | [serde](https://github.com/serde-rs/serde) | Framework for serializing and deserializing data structures | Used alongside postcard to translate custom finger coordinate structs into raw bytes from transmission |
 | [nb](https://github.com/rust-embedded/nb) | Non-blocking I/O abstraction wrapper | Used to block on non-blocking operations like ADC conversions |
 
+| [esp_backtrace](https://github.com/esp-rs/esp-backtrace) | Panic and backtrrace handler for Espressif chips | Used to catch system crashes and print descriptive backtrace error to the console. |
+| [esp_hal](https://github.com/esp-rs/esp-hal) | Hardware abstraction layer for Espressif microcontrollers| Used to configure and control hardware peripherals like GPIO output pins, ADCs, timers, and UART transmission lines. |
+
+| [esp_println](https://github.com/esp-rs/esp-println) | Print infrastructure for Espressif chips | Used to output text strings and debug info directly to the serial console via peintln! |
+
+| [esp_wifi]() | Wi_Fi and ESP-NOW protocol driver for ESP chips | Used to initialize wireless connectivity and broadcast glove sensor data via ESP-NOW |
+
+
 
 
 
