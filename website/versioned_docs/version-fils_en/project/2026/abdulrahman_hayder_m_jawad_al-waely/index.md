@@ -54,6 +54,7 @@ The project used two ESP32 38 pins to send data wirelessly via ESP-NOW, pico 2W 
 
 
 ## Schematics
+![Diagram](RoboticHand.svg)
 
 
 ## Bill of Materials
