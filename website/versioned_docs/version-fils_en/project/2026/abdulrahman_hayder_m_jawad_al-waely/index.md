@@ -50,11 +50,11 @@
 
 ### On the week of submission
 
-*On the last week of submission I couldn't get the parts printed from the university thus, I decided to buy my own 3D printer and attemted to print the 3D model myself. Unfortunatly I didn't have the time nor the experience needed to perform the 3D print. Partes didn't fit together, others broke very easily. For that reason I decided to print only the necessary parts and the other large parts I would make them using wood. Unfortunately even with all my attempts and efforts I couldn't get it done on time, and the parts that I did make broke when I was transporting them to the university. *
+*On the last week of submission I couldn't get the parts printed from the university thus, I decided to buy my own 3D printer and attemted to print the 3D model myself. Unfortunatly I didn't have the time nor the experience needed to perform the 3D print. Partes didn't fit together, others broke very easily. For that reason I decided to print only the necessary parts and the other large parts I would make them using wood. Unfortunately even with all my attempts and efforts I couldn't get it done on time, and the parts that I did make broke when I was transporting them to the university.*
 
 ### The summer vacation
 
-*On the summer vacation, I spent mostly 3D printing parts and making sure that the printer is optimized I broke parts from it and had to fix or order replacement parts. I changed from using an STM32 to a pico 2W and two ESP32s. I still couldn't 3D print all the parts, but I was able to print the actual hand. I programmed it and used ESP-NOW to send data from the glove to the actual hand and move it. I also had to change my original idea of using tubes to flex the hand as the force was too weak for preforming action. *
+*On the summer vacation, I spent mostly 3D printing parts and making sure that the printer is optimized I broke parts from it and had to fix or order replacement parts. I changed from using an STM32 to a pico 2W and two ESP32s. I still couldn't 3D print all the parts, but I was able to print the actual hand. I programmed it and used ESP-NOW to send data from the glove to the actual hand and move it. I also had to change my original idea of using tubes to flex the hand as the force was too weak for preforming action. At the end I managed to make a working three part of the hydraulic hand, the gloves, the control box and the hydraulic hand. It is not perfect, but it is the first minimum viable product*
 
 
 
